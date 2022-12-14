@@ -39,7 +39,7 @@ struct CoinRowView: View {
             
             VStack(alignment: .trailing, spacing: 2) {
                 // Current Coin Price
-                Text("$\(coin.currentPrice)")
+                Text(coin.currentPrice.toCurrency())
                     .font(.headline)
                 
                 // Price Change in 24h

@@ -13,7 +13,7 @@ struct TopMoversItemView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            // Current Coin Price
+            // Coin Image
             KFImage(URL(string: coin.image))
                 .resizable()
                 .frame(width: 40, height: 40)
@@ -25,8 +25,8 @@ struct TopMoversItemView: View {
                 .font(.caption)
                 .fontWeight(.black)
             
-            // Coin Image
-            Text("$\(coin.currentPrice)")
+            // Current Coin Price
+            Text(coin.currentPrice.toCurrency())
                 .font(.caption)
                 .foregroundColor(.gray)
             
