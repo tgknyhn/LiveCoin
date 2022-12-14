@@ -12,7 +12,7 @@ struct TopMoversItemView: View {
     let coin: Coin
     
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(spacing: 4) {
             // Coin Image
             KFImage(URL(string: coin.image))
                 .resizable()
@@ -31,9 +31,9 @@ struct TopMoversItemView: View {
                 .foregroundColor(.gray)
             
             // Price Change in 24h
-            Text(coin.priceChange24H.toPercentage())
+            Text(coin.priceChangePercentage24H.toPercentage())
                 .font(.title3)
-                .foregroundColor(.green)
+                .foregroundColor(coin.priceChangePercentage24H > 0 ? .green : .red)
         }
         .frame(width: 140, height: 140)
         .overlay(RoundedRectangle (cornerRadius: 20)

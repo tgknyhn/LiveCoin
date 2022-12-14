@@ -13,7 +13,7 @@ extension Double {
         formatter.usesGroupingSeparator = true
         formatter.numberStyle = .currency
         formatter.minimumFractionDigits = 2
-        formatter.maximumFractionDigits = 2
+        formatter.maximumFractionDigits = 6
         return formatter
     }
     
@@ -22,6 +22,7 @@ extension Double {
         formatter.numberStyle = .decimal
         formatter.minimumFractionDigits = 2
         formatter.maximumFractionDigits = 2
+        formatter.positivePrefix = "+"
         return formatter
     }
     

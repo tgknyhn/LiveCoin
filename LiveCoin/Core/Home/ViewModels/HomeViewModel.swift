@@ -48,7 +48,7 @@ class HomeViewModel: ObservableObject {
     }
     
     func getTopMovingCoins(moverSize: Int) -> Array<Coin> {
-        let topMovers = coins.sorted { $0.priceChange24H > $1.priceChange24H }
+        let topMovers = coins.sorted { $0.priceChangePercentage24H > $1.priceChangePercentage24H }
         return Array(topMovers.prefix(moverSize))
     }
 }
