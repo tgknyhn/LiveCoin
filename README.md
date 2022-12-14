@@ -1,6 +1,6 @@
 <h1 align="center">
 
-Real-time Coin Tracking App 
+Real-time Coin Tracking App (SwiftUI)
 </h1>
 
 <p align="center">
