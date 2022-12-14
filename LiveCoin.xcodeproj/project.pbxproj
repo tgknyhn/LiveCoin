@@ -36,6 +36,7 @@
 		B10919D82949308E003AAFFD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		B10919DA29493711003AAFFD /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		B16F544B294A72CB002FFF1B /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		B16F544D294A827B002FFF1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		B10919AB2948DDC1003AAFFD = {
 			isa = PBXGroup;
 			children = (
+				B16F544D294A827B002FFF1B /* README.md */,
 				B10919B62948DDC1003AAFFD /* LiveCoin */,
 				B10919B52948DDC1003AAFFD /* Products */,
 			);
