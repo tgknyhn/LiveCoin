@@ -31,7 +31,7 @@ struct TopMoversItemView: View {
                 .foregroundColor(.gray)
             
             // Price Change in 24h
-            Text("\(coin.priceChange24H)")
+            Text(coin.priceChange24H.toPercentage())
                 .font(.title3)
                 .foregroundColor(.green)
         }

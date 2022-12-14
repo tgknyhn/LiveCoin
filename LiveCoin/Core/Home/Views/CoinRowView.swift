@@ -31,7 +31,7 @@ struct CoinRowView: View {
                     .padding(.leading, 4)
                 
                 // Coin Symbol
-                Text(coin.symbol)
+                Text(coin.symbol.uppercased())
                     .font(.system(size: 12))
                     .padding(.leading, 4)
             }
@@ -43,7 +43,7 @@ struct CoinRowView: View {
                     .font(.headline)
                 
                 // Price Change in 24h
-                Text("\(coin.priceChange24H)")
+                Text(coin.priceChange24H.toPercentage())
                     .font(.system(size: 12))
                     .foregroundColor(.red)
             }
