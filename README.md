@@ -7,8 +7,7 @@ Real-time Coin Tracking App (SwiftUI)
 <img src="https://github.com/tgknyhn/LiveCoin/blob/main/GIFs/LiveCoin_Light.gif" width="250" height="520" /> <img src="https://github.com/tgknyhn/LiveCoin/blob/main/GIFs/LiveCoin_Dark.gif" width="250" height="520" />
 </p>
 
-* Please wait until GIF files load
-* I inspired from [this](https://youtu.be/-QT_bEx-4zg) youtube video
+* Inspired from [this](https://youtu.be/-QT_bEx-4zg) video
 * For coin data, I used [CoinGecko API](https://www.coingecko.com/en/api)
 * For coin images, I used [Kingfisher](https://github.com/onevcat/Kingfisher)
-* I built my app using MVVM Architecture 
+* I built the app using MVVM Architecture 
