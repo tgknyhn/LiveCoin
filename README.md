@@ -11,3 +11,5 @@ Real-time Coin Tracking App (SwiftUI)
 * For coin data, I used [CoinGecko API](https://www.coingecko.com/en/api)
 * For coin images, I used [Kingfisher](https://github.com/onevcat/Kingfisher)
 * I built the app using MVVM Architecture 
+
+! Please wait until GIF files load
